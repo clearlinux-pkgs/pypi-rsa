@@ -4,7 +4,7 @@
 #
 Name     : pypi-rsa
 Version  : 4.8
-Release  : 65
+Release  : 66
 URL      : https://files.pythonhosted.org/packages/8c/ee/4022542e0fed77dd6ddade38e1e4dea3299f873b7fd4e6d78319953b0f83/rsa-4.8.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8c/ee/4022542e0fed77dd6ddade38e1e4dea3299f873b7fd4e6d78319953b0f83/rsa-4.8.tar.gz
 Summary  : Pure-Python RSA implementation
@@ -14,13 +14,10 @@ Requires: pypi-rsa-bin = %{version}-%{release}
 Requires: pypi-rsa-license = %{version}-%{release}
 Requires: pypi-rsa-python = %{version}-%{release}
 Requires: pypi-rsa-python3 = %{version}-%{release}
-Requires: pyasn1
+Requires: pypi(pyasn1)
 BuildRequires : buildreq-distutils3
-Provides: rsa
-Provides: rsa-python
-Provides: rsa-python3
-BuildRequires : pyasn1
 BuildRequires : pypi(poetry_core)
+BuildRequires : pypi(pyasn1)
 
 %description
 # Pure Python RSA implementation
@@ -75,7 +72,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641491736
+export SOURCE_DATE_EPOCH=1641835465
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
