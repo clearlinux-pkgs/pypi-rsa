@@ -4,7 +4,7 @@
 #
 Name     : pypi-rsa
 Version  : 4.9
-Release  : 69
+Release  : 70
 URL      : https://files.pythonhosted.org/packages/aa/65/7d973b89c4d2351d7fb232c2e452547ddfa243e93131e7cfa766da627b52/rsa-4.9.tar.gz
 Source0  : https://files.pythonhosted.org/packages/aa/65/7d973b89c4d2351d7fb232c2e452547ddfa243e93131e7cfa766da627b52/rsa-4.9.tar.gz
 Summary  : Pure-Python RSA implementation
