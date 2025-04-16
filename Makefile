@@ -1,5 +1,5 @@
 PKG_NAME := pypi-rsa
-URL = https://files.pythonhosted.org/packages/aa/65/7d973b89c4d2351d7fb232c2e452547ddfa243e93131e7cfa766da627b52/rsa-4.9.tar.gz
+URL = https://files.pythonhosted.org/packages/da/8a/22b7beea3ee0d44b1916c0c1cb0ee3af23b700b6da9f04991899d0c555d4/rsa-4.9.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
